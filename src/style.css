@@ -1,3 +1,56 @@
-h1, p {
-  font-family: Lato;
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  padding: 5px 10px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+ul {
+  text-align: right;
+  background: #f3f3f3;
+  padding: 5px 0;
+  margin: 0;
+}
+nav ul li a:hover {
+  color: rgb(75, 74, 74);
+}
+body {
+  margin: 0;
+}
+.Home-img {
+  width: 96%;
+  margin: 0 2%;
+}
+h3 {
+  padding: 20px 30px;
+}
+.about-para {
+  text-align: justify;
+  margin: 0 2%;
+}
+.contact-form {
+  text-align: center;
+}
+.my-form {
+  padding: 5px;
+  border-radius: 5px;
+  border-style: double;
+}
+button {
+  padding: 2px 5px;
+  background-color: rgb(209, 207, 207);
+  border-style: double;
+}
+button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(43, 42, 42);
+}
+td,
+th {
+  padding: 5px 20px;
+  text-align: left;
 }
